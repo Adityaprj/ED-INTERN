@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+        .container {
+            border: 50px solid rgb(224, 205, 255);
+            color: wheat;
+            width: 300px;
+            margin: auto;
+            padding-left: 130px;
+        }
+
+        .strech-button {
+            background-color: green;
+            color: white;
+            padding-right: 10px;
+            padding-left: 10px;
+            padding-top: 5px;
+            padding-bottom: 5px;
+            cursor: pointer;
+
+        }
+
+        .strech-button:active {
+            box-shadow: 2px;
+
+        }
+
+        .strech-button:hover {
+            transition: 1s ease-out;
+            font-size: 20px;
+            box-shadow: 0px 0px 0px 2px green;
+        }
+
+        .shadow-button {
+            background-color: green;
+            color: white;
+            padding-right: 10px;
+            padding-left: 10px;
+            padding-top: 5px;
+            padding-bottom: 5px;
+            cursor: pointer;
+            box-shadow: 6px 6px 0px var(--background-color--);
+        }
+
+        .shadow-button:active{
+            transform: translateX(2px) translateY(2px);
+        }
+
+        .shadow-button:hover {
+            transition: all 0.2 ease;
+        }
+
+        .one-button {
+            background-color: green;
+            color: white;
+            padding-right: 10px;
+            padding-left: 10px;
+            padding-top: 5px;
+            padding-bottom: 5px;
+            margin-right: 6px;
+            cursor: pointer;
+        }
+        .one-button:hover {
+            width: 20%;
+        }
+
+        .two-button {
+            background-color: green;
+            color: white;
+            padding-right: 10px;
+            padding-left: 10px;
+            padding-top: 5px;
+            padding-bottom: 5px;
+            margin-right: 6px;
+            cursor: pointer;
+        }
+        .two-button:hover {
+            width: 20%;
+        }
+
+        .three-button {
+            background-color: green;
+            color: white;
+            padding-right: 10px;
+            padding-left: 10px;
+            padding-top: 5px;
+            padding-bottom: 5px;
+            cursor: pointer;
+        }
+        .three-button:hover {
+            width: 25%;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <button class="back-button">Back</button>
+        <a href="#">1</a>
+        <a href="#">2</a>
+        <a href="#">3</a>
+        <a href="#">4</a>
+        <a href="#">5</a>
+        <button class="next-button">Next</button>
+    </div>
+    <div class="container">
+        <button class="strech-button">Strech</button>
+    </div>
+    <div class="container">
+        <button class="shadow-button">Shadow</button>
+    </div>
+    <div class="container">
+        <button class="one-button">One</button>
+        <button class="two-button">Two</button>
+        <button class="three-button">Three</button>
+    </div>
+
+</body>
+
+</html>

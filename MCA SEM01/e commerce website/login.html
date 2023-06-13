@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>login</title>
+    <!-- css code -->
+    <style>
+        body{
+            margin: 0;
+            padding: 0;
+            background: url('bg.jpg');
+        }
+        .container{
+            /* border: 2px solid rgb(29, 84, 205); */
+            /* border-radius: 10px; */
+            width: 300px;
+            height: 300px;
+            position: absolute;
+            left: 470px;
+            top: 240px;
+            /* border: hidden; */
+            
+        }
+        .data-container{
+            margin: 80px 33px;
+            
+        }
+        .data-container form input{
+            width: 200px;
+            height: 30px;
+            margin: 10px;
+        }
+       pre{
+        font-size: 30px;
+        font-weight: bold;
+        position: absolute;
+        top: 5px;
+        left:40px ;
+        color: white;
+       }
+       img{
+        width: 240px;
+        position: absolute;
+        left: 500px;
+        /* filter: invert(); */
+       }
+       #submit{
+        color: rgb(33, 33, 33);
+        background-color: rgb(152, 214, 235);
+        width: 150px;
+        height: 50px;
+        border-radius: 10px;
+        margin-left: 40px;
+        border: none;
+        cursor: pointer;
+       }
+       a{
+        
+        color:rgb(44, 43, 43);
+        margin-left: 60px;
+        margin-top: 0px;
+        text-decoration: none;
+       }
+        
+    </style>
+</head>
+<body>
+    <img src="login.jpg" alt="">
+    <div class="container">
+        <pre>Log in</pre>
+        <div class="data-container">
+            
+            <FORM>
+                <input type="email" placeholder="enter email" >
+                <input type="password" placeholder="enter password"><br>
+                <input type="submit" value="Click to login" id="submit"><a href="#">Reset password!</a>
+            </FORM>
+        </div>
+    </div>
+</body>
+</html>

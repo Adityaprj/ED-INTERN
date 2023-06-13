@@ -1,0 +1,131 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>user registration</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css">
+    <style>
+        body{
+            margin-left: 100px;
+            margin-right: 100px;
+            background-color: rgb(32, 33, 33);
+        }
+        .card{
+            background-color: rgb(61, 202, 155);
+        }
+        a{
+            position: relative;
+            margin-left: 430px;
+            width: 200px;
+            margin-top: 10px;
+        }
+        p{
+            margin-top: 15px;
+        }
+        form{
+            position: relative;
+            margin-left: 395px;
+           
+            
+        }
+        .input-group{
+            margin-top: 12px;
+          
+        }
+        input{
+            padding-left: 10px;
+        }
+      
+    </style>
+</head>
+
+<body>
+
+    <div class="continer" id="cont">
+        <div class="card ">
+            <div class="card-body max-auto">
+                <h3 class="card-title mt-3 text-center"> Register yourself</h3>
+                <p class="text-center">get started with your free acoount!</p>
+                <a href="#" class="btn btn-block btn-danger ">
+                    <i class="fab fa-google"></i>
+                    login via google
+                </a>
+                <a href="#" class="btn btn-block btn-primary">
+                    <i class="fab fa-facebook-f"></i>
+                    login via facebook
+                </a>
+                <p class="divider text-center ">
+                    <span>OR</span>
+                </p>
+                <!-- form started -->
+                <form action="" >
+                    <!-- name field -->
+                    <div class="form-group input-group">
+                        <div class="input-group-prepend">
+                            <span class="input-group-text"><i class="fa fa-user "></i></span>
+                        </div>
+
+                        <input type="text" placeholder="your name">
+                    </div>
+                    <!-- email field -->
+                    <div class="form-group input-group">
+                        <div class="input-group-prepend">
+                            <span class="input-group-text"><i class="fa fa-envelope "></i></span>
+                        </div>
+
+                        <input type="email" placeholder="your email">
+                    </div>
+                    <!-- phone field -->
+                    <div class="form-group input-group">
+                        <div class="input-group-prepend">
+                            <span class="input-group-text"><i class="fa fa-phone "></i></span>
+                        </div>
+
+                        <input type="number" placeholder="your number">
+                    </div>
+                    <!-- user type -->
+                    <div class="form-group input-group">
+                        <div class="input-group-prepend">
+                            <span class="input-group-text"><i class="fa fa-building "></i></span>
+                        </div>
+
+                        
+                        <select name="" id="">
+                            <option selected disabled>---select your user type--</option>
+                            <option value=""> student</option>
+                            <option value="">admin</option>
+                        </select>
+                    </div>
+                    <!-- password field -->
+                    <div class="form-group input-group">
+                        <div class="input-group-prepend">
+                            <span class="input-group-text"><i class="fa fa-lock"></i></span>
+                        </div>
+
+                        <input type="password" placeholder="create password">
+                    </div>
+                    <div class="form-group input-group">
+                        <div class="input-group-prepend">
+                            <span class="input-group-text"><i class="fa fa-unlock "></i></span>
+                        </div>
+
+                        <input type="password" placeholder="repeat password">
+                    </div>
+
+                </form>
+                <a href="#" class="btn btn-block btn-success">
+                    
+                    register
+                </a>
+               
+            </div>
+        </div>
+    </div>
+
+</body>
+
+</html>

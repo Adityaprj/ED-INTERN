@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Employee Registration</title>
+</head>
+<body>
+	<h1>Employee Registration Form</h1>
+	<form action="submit-form.php" method="post">
+		<label for="name">Full Name:</label><br>
+		<input type="text" id="name" name="name" required><br>
+
+		<label for="email">Email:</label><br>
+		<input type="email" id="email" name="email" required><br>
+
+		<label for="phone">Phone Number:</label><br>
+		<input type="tel" id="phone" name="phone" required><br>
+
+		<label for="position">Position:</label><br>
+		<select id="position" name="position" required>
+			<option value="">Select Position</option>
+			<option value="manager">Manager</option>
+			<option value="assistant">Assistant</option>
+			<option value="clerk">Clerk</option>
+			<option value="technician">Technician</option>
+		</select><br>
+
+		<label for="salary">Expected Salary:</label><br>
+		<input type="number" id="salary" name="salary" required><br>
+
+		<label for="resume">Upload Resume:</label><br>
+		<input type="file" id="resume" name="resume"><br>
+
+		<input type="submit" value="Submit">
+	</form>
+</body>
+</html>

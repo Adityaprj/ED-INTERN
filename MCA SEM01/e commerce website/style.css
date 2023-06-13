@@ -1,0 +1,237 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+body{
+    font-family: 'Ubuntu', sans-serif;
+}
+p{
+    color: #555;
+}
+.navbar{
+    
+    display: flex;
+    align-items: center;
+    padding: 15px;
+    
+
+
+}
+nav{
+   margin-left: 610px;
+}
+
+nav ul{
+    list-style-type: none;
+    
+    
+}
+nav ul li{
+    
+    display: inline;
+    margin-left: 10px;
+    padding-left: 5px;
+    
+}
+a{
+    font-size: 20px;
+    text-decoration: none;
+    color: black;
+}
+a:hover{
+    color: rgb(15, 15, 15);
+}
+.container{
+    position: fixed;
+    max-width: 1300px;
+    margin: auto;
+ padding-left: 25px;
+ padding-right: 25px;
+}
+.row{
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: space-around;
+} 
+ 
+.row .col-2{
+ flex-basis: 50%;
+ min-width: 300px;
+ 
+}
+.col-2 h1{
+    padding-left: 76px;
+    margin-top: 70px;
+}
+
+.row .col-2 img{
+
+    max-width: 90%;
+    padding: 50px 0;
+    margin-top: 60px;
+}
+.btn{ 
+    margin-left: 86px;
+    width: 170px;
+    height:   39px;
+    margin-top: 12px;
+    padding-bottom: 5px;
+    border-radius: 20px;
+    background-color: rgb(34, 93, 230);
+    transition: background  1s;
+   
+}
+.btn:hover{
+    background: rgb(20, 162, 201);
+}
+.header{
+    background: radial-gradient(rgb(234, 228, 228),rgb(112, 227, 110));
+}
+ /* catogries section*/
+ .catogries{
+    margin: 70px 0;
+ }
+ 
+ .col-3{
+    flex-basis: 30%;
+    max-width: 250px;
+    margin-bottom: 30px
+ }
+ .col-3 img{
+   width: 120%;
+   box-shadow: 5px 7px 15px 6px rgb(71, 71, 71);
+ }
+ .small_catogries{
+    max-width: 1080px;
+    margin: auto;
+    padding-left: 30px;
+    padding-right: 30px;
+ }
+ /* our product section */
+
+ .row1{
+    margin-top: 25px;
+}
+ .col-4{
+    flex-basis: 25%;
+    padding: 10px;
+    margin-bottom: 50px;
+    min-width:200px ;
+    transition: transform 0.5s;
+ }
+ .col-4 img{
+    width: 100%;
+    
+   box-shadow: 5px 7px 15px 6px rgb(155, 72, 66);
+ }
+ .about-product{
+    margin-top: 10px;
+    padding: 5px;
+    text-align: center;
+   
+ }
+ .title{
+    position: relative;
+    margin: o auto 80px;
+    text-align: center;
+    font-size: 40px;
+    /* border: 2px solid rgb(55, 54, 54); */
+    /* background-color: #f4aeba; */
+    color: #555;
+    border-radius: 20px;
+ }
+ .title::after{
+    content: '';
+    background: rgb(113, 94, 94);
+    width: 130px;
+    height: 6px;
+    border-radius: 5px;
+    position: absolute;
+    left: 50%;
+    bottom: -5px;
+    transform: translateX(-50%);
+ }
+ .col-4:hover{
+    transform:translateY(-5px) ;
+ }
+
+ /* ----offer-section--- */
+ .offer{
+    background: radial-gradient(rgb(100, 215, 119),rgb(188, 188, 171));
+    margin: 0 70px 40px 70px;
+    border-radius: 30px;
+ }
+ .offer .col-2 h3{
+   color: rgb(182, 74, 12);
+   text-align: center;
+   padding-top: 10px;
+   font-size: 30px;
+ }
+ .offer .col-2 p{
+    color: rgb(203, 27, 18);
+    text-align: center;
+    padding-top: 10px;
+    font-size: 25px;
+  }
+  .offer .col-2 a{
+   color: rgb(200, 200, 222);
+    padding-top: 10px;
+    font-size: 25px;
+   float: right;
+   border-radius: 30px;
+   background-color: rgb(51, 52, 53);
+   padding: 15px;
+   margin-top: 20px;
+   transition: transform 0.5s;
+  }
+  .offer .col-2 a:hover{
+    background-color: rgb(71, 37, 37);
+  }
+
+
+  /* --------testimonial-------- */
+  .small_container .col-3 p{
+    color: red;
+    padding-bottom: 10px;
+
+  }
+  .small_container .col-3{
+    
+    background-color: rgb(244, 199, 210);
+    text-align: center;
+    border: 1px solid black;
+    border-radius: 20px;
+    box-shadow: 0 0 20px 0 royalblue;
+    transition: transform 0.5s;
+  }
+  .small_container .col-3 img{
+    width: 80px;
+    border-radius: 50px;
+    box-shadow: none;
+  }
+  .small_container .col-3 h3{
+    text-align: center;
+    padding-top: 10px;
+   
+    color: rgb(145, 83, 13);
+  }
+  .small_container .col-3 .rating{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    filter: invert(30%);
+  }
+  .small_container .col-3:hover{
+    transform: translateY(-10px);
+    cursor: pointer;
+
+  }
+  .small_catogries .col-5 img{
+    filter: grayscale(100%);
+  }
+  .small_catogries .col-5 img:hover{
+    filter: grayscale(0%);
+    cursor: pointer;
+  }

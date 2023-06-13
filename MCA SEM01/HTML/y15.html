@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>css grid</title>
+    <h1>css grid</h1>
+    <style>
+        .container{
+            background: #eee;
+            width: 600px;
+            margin: 70px 0 0 50px;
+
+            display: grid;
+            grid-template-columns: 200px 200px;
+            grid-template-rows: 150px 100px 150px;
+        }
+        .item1{
+            background: orangered;
+
+        }
+        .item2{
+            background: blueviolet;
+
+        }
+        .item3{
+            background: lightblue;
+
+        }
+        .item4{
+            background: lightgreen;
+
+        }
+        .item5{
+            background: lightpink;
+
+        }
+        .item6{
+            background: yellowgreen;
+
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="div item item1">first</div>
+        <div class="div item item2">second</div>
+        <div class="div item item3">third</div>
+        <div class="div item item4">fourth</div>
+        <div class="div item item5">fifth</div>
+        <div class="div item item6">sixth</div>
+    </div>
+</body>
+</html>

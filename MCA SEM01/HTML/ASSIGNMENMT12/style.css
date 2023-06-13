@@ -1,0 +1,102 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+    scroll-behavior: smooth;
+    font-family: 'Lato', sans-serif;
+}
+/* Navbar Start */
+#navbar{
+    background: #f9f9f9;
+}
+#logo{
+    font-size: 36px;
+    font-weight: 550;
+    color: black;
+    text-shadow: 0px 1px 1px black;
+    margin-bottom: 5px;
+}
+#logo span{
+    color: #ffa500;
+}
+.navbar-toggler span{
+    color: #ffa500;
+}
+.navbar-nav{
+    margin-left: 20px;
+}
+.nav-item .nav-link{
+    font-size: 16px;
+    font-weight: 550;
+    color: black;
+    letter-spacing: 1px;
+    border-radius: 3px;
+    transition: 0.5s ease;
+}
+.nav-item .nav-link:hover{
+    background: #0fb88e;
+    color: white;
+}
+#navbar form button{
+    background: blueviolet;
+    color: white;
+    border: none;
+}
+#navbar form button:hover{
+    background-color: blue;
+}
+/* Navbar End */
+/* Home Section Start */
+.home{
+    width: 100%;
+    height: 90vh;
+    background-image: linear-gradient(rgba(0,0,0,0.3),rgba(0,0,0,0.2)), url(./images/background\ img.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.home .content{
+    text-align: center;
+    padding-top: 200px;
+}
+.home .content h5{
+    color: whitesmoke;
+    font-size: 35px;
+    font-weight: 495;
+    text-shadow: 0px 1px 1px black;
+}
+.home .content h1{
+    color: whitesmoke;
+    font-size: 65px;
+    font-weight: 590;
+    text-shadow: 0px 1px 1px black;
+    margin-top: 6px;
+}
+.changecontent::after{
+    content: ' ';
+    color: rgb(91, 189, 64);
+    text-shadow: 0px 1px 1px black;
+    animation: changetext 10s infinite;
+}
+@keyframes changetext {
+    0%{content: "Ellora Caves";}
+    9%{content: "Elephanta Caves";}
+    18%{content: "Ajanta Caves";}
+    27%{content: "flower of valley uttrakhand";}
+    36%{content: "Aletsch Glacier";}
+    45%{content: "Bern";}
+    54%{content: "Jungfrau";}
+    63%{content: "Athens";}
+    72%{content: "Meteora";}
+    81%{content: "Patmos";}
+    90%{content: "Harihar Fort";}
+    100%{content: "Mohenjo-daro";}
+}
+.home .content p{
+    color: whitesmoke;
+    font-size: 15px;
+    font-weight: 590;
+    text-shadow: 0px 1px 1px black;
+    margin-top: 6px;
+}
